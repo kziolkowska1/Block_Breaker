@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/(Scene)/Level 1.unity
+    path: Assets/(Scene)/StartGame.unity
     guid: 3a395dd0a82147b46878694ceef85dd3
   - enabled: 1
-    path: Assets/(Scene)/Lose.unity
+    path: Assets/(Scene)/WinGame.unity
     guid: 80de99120722902418ece47e37f4911c
   - enabled: 1
-    path: Assets/(Scene)/Start.unity
+    path: Assets/(Scene)/NextLevel.unity
     guid: 79a7ea8ccfddc5e429e0314bfd9c9f02
   - enabled: 1
-    path: Assets/(Scene)/Win.unity
+    path: Assets/(Scene)/LoseGame.unity
     guid: 1069cfeb1d55ef34b8d4450c44420113
   m_configObjects: {}
