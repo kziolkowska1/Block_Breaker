@@ -678,13 +678,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.1684952, y: 0.4164052}
-      - {x: -1.1754646, y: 0.41640472}
-      - {x: -1.9930325, y: 0.090168476}
-      - {x: -2, y: -0.5}
-      - {x: 2, y: -0.5}
-      - {x: 1.9860649, y: 0.07096243}
-      - {x: 1.5882587, y: 0.24641895}
+    - - {x: 2.2098045, y: 0.8665767}
+      - {x: -2.244917, y: 0.894711}
+      - {x: -3.9912214, y: 0.17457628}
+      - {x: -4.026333, y: -0.89390016}
+      - {x: 4.026333, y: -0.9501715}
+      - {x: 3.927967, y: 0.1272335}
+      - {x: 3.9804573, y: 0.10574055}
 --- !u!212 &836367063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -771,9 +771,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42e5e1d4b3e96674cacc3cc670a377b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  screenWidthInUnits: 16
+  screenWidthInUnits: 32
   minX: 1
-  maxX: 15
+  maxX: 31
 --- !u!1 &881293336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,7 +1476,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 36.255955, y: 0.98009086}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1487,7 +1487,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 73.51191, y: 2.9601822}
   m_EdgeRadius: 0
 --- !u!224 &1913442407
 RectTransform:
@@ -1506,7 +1506,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 75, y: 5}
+  m_SizeDelta: {x: 73, y: 5}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1913442408
 MonoBehaviour:
