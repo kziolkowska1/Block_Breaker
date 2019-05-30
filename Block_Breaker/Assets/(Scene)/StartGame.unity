@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 61325913}
   - component: {fileID: 61325912}
   m_Layer: 0
-  m_Name: Block 1 (3)
+  m_Name: Block1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,7 +189,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &460081820
 GameObject:
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 460081822}
   - component: {fileID: 460081821}
   m_Layer: 0
-  m_Name: Block 1 (2)
+  m_Name: Block1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,7 +268,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &516975572
 GameObject:
@@ -527,8 +527,9 @@ GameObject:
   - component: {fileID: 571263338}
   - component: {fileID: 571263337}
   - component: {fileID: 571263336}
+  - component: {fileID: 571263340}
   m_Layer: 0
-  m_Name: Ball 1
+  m_Name: Ball1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -633,6 +634,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &571263340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571263335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dfc546c8c185484ca258c9adbb6e101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddle1: {fileID: 1469180226}
+  xPush: 2
+  yPush: 15
+  rb: {fileID: 571263337}
+  hasStarted: 0
 --- !u!1 &881293336
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,7 +662,7 @@ GameObject:
   - component: {fileID: 881293338}
   - component: {fileID: 881293337}
   m_Layer: 0
-  m_Name: BlockBroken4
+  m_Name: BlockBroken3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -710,7 +728,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &984358002
 GameObject:
@@ -723,7 +741,7 @@ GameObject:
   - component: {fileID: 984358004}
   - component: {fileID: 984358003}
   m_Layer: 0
-  m_Name: Block 1
+  m_Name: Block1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -802,7 +820,7 @@ GameObject:
   - component: {fileID: 1329882437}
   - component: {fileID: 1329882436}
   m_Layer: 0
-  m_Name: BlockBroken3
+  m_Name: BlockBroken2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -868,7 +886,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1469180225
 GameObject:
@@ -884,7 +902,7 @@ GameObject:
   - component: {fileID: 1469180227}
   - component: {fileID: 1469180226}
   m_Layer: 0
-  m_Name: Paddle 2
+  m_Name: Paddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1244,7 +1262,7 @@ GameObject:
   - component: {fileID: 1955730810}
   - component: {fileID: 1955730809}
   m_Layer: 0
-  m_Name: Block 1 (1)
+  m_Name: Block1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1310,5 +1328,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
